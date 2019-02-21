@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify.Web.Api", "Spotify.Web.Api\Spotify.Web.Api.csproj", "{A6269C37-AA24-4DDB-943D-9A61A64168B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeBlue.Ecommerce.Domain", "BeBlue.Ecommerce.Domain\BeBlue.Ecommerce.Domain.csproj", "{D317F5D5-B092-4F61-A0D8-DFF51587662F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeBlue.Ecommerce.Data", "BeBlue.Ecommerce.Data\BeBlue.Ecommerce.Data.csproj", "{32EF3441-B56C-4F84-8CDE-4270C4963FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeBlue.Ecommerce.Servico", "BeBlue.Ecommerce.Servico\BeBlue.Ecommerce.Servico.csproj", "{4684F463-E78B-4153-856E-DAD9BF881376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeBlue.Ecommerce.Api2", "BeBlue.Ecommerce.Api2\BeBlue.Ecommerce.Api2.csproj", "{6CD11A2C-236B-4DC4-B41B-09AA8CF8D178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Script_Database", "Script_Database", "{6A002598-6DF5-467E-BB43-114CF7E3E706}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts_DataBase\Create_Database.sql = Scripts_DataBase\Create_Database.sql
+		Scripts_DataBase\Create_Table_Album.sql = Scripts_DataBase\Create_Table_Album.sql
+		Scripts_DataBase\Create_Table_CashBack.sql = Scripts_DataBase\Create_Table_CashBack.sql
+		Scripts_DataBase\Create_Table_Preco.sql = Scripts_DataBase\Create_Table_Preco.sql
+		Scripts_DataBase\Crreate_Table_Venda.sql = Scripts_DataBase\Crreate_Table_Venda.sql
+		Scripts_DataBase\Popular_Tabela_Cashback.sql = Scripts_DataBase\Popular_Tabela_Cashback.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6269C37-AA24-4DDB-943D-9A61A64168B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6269C37-AA24-4DDB-943D-9A61A64168B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6269C37-AA24-4DDB-943D-9A61A64168B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6269C37-AA24-4DDB-943D-9A61A64168B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D317F5D5-B092-4F61-A0D8-DFF51587662F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D317F5D5-B092-4F61-A0D8-DFF51587662F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D317F5D5-B092-4F61-A0D8-DFF51587662F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D317F5D5-B092-4F61-A0D8-DFF51587662F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EF3441-B56C-4F84-8CDE-4270C4963FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EF3441-B56C-4F84-8CDE-4270C4963FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EF3441-B56C-4F84-8CDE-4270C4963FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EF3441-B56C-4F84-8CDE-4270C4963FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4684F463-E78B-4153-856E-DAD9BF881376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4684F463-E78B-4153-856E-DAD9BF881376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4684F463-E78B-4153-856E-DAD9BF881376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4684F463-E78B-4153-856E-DAD9BF881376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD11A2C-236B-4DC4-B41B-09AA8CF8D178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD11A2C-236B-4DC4-B41B-09AA8CF8D178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD11A2C-236B-4DC4-B41B-09AA8CF8D178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD11A2C-236B-4DC4-B41B-09AA8CF8D178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87469673-3701-4542-A95B-8540EA8F656F}
+	EndGlobalSection
+EndGlobal

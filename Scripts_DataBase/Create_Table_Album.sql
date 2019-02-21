@@ -1,0 +1,31 @@
+USE [LojaDsco]
+GO
+
+/****** Object:  Table [dbo].[Album]    Script Date: 21/02/2019 11:57:39 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Album](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[KeyDisc] [varchar](200) NOT NULL,
+	[Name] [varchar](400) NULL,
+	[Type] [varchar](50) NULL,
+	[Genre] [varchar](10) NULL,
+ CONSTRAINT [PK_Album] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

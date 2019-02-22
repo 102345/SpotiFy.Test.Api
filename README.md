@@ -33,6 +33,9 @@ Atribua um identificador único e um preço qualquer para cada disco;
 calculado e armazenado individualmente para cada disco bem como o cashback
 total da venda.
 
+Obs : ​Cashback​: Dinheiro de volta, é o valor calculado a partir de um determinado percentual
+para calcular o valor recebido de volta na conta.
+
 Para testar o projeto siga as seguintes instrução na ordem :
 
 1. Instalar o SDGB Ms SQL Server Express 2012.
